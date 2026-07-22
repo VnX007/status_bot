@@ -1,5 +1,4 @@
 import json
-import time
 from aiogram import Router, types
 from aiogram.filters import CommandStart
 from aiogram.fsm.context import FSMContext
