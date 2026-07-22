@@ -1,0 +1,114 @@
+{
+    "status_limits": {
+        "NOT_READY [Перекур]": 420,
+        "NOT_READY [WS_]": 420,
+        "NOT_READY [Навчання]": 420,
+        "NOT_READY [Технічна перерва]": 420,
+        "NOT_READY [Фіксація заявки]": 420,
+        "NOT_READY [Обід]": 1800,
+        "NOT_READY": 30,
+        "LOGIN": 30,
+        "LOGOUT": 30,
+        "Ready": 0,
+        "TALKING": 0,
+        "WORKING": 0,
+        "RESERVED": 0
+    },
+    "operators": {
+        "831989651": {
+            "voip_id": 5,
+            "login": "lytvyn",
+            "internalPhoneId": 4
+        },
+        "8319534652": {
+            "voip_id": 7,
+            "login": "ypolischuk",
+            "internalPhoneId": 21
+        },
+        "83156652": {
+            "voip_id": 8,
+            "login": "lgorkovchuk",
+            "internalPhoneId": 7
+        },
+        "834624369652": {
+            "voip_id": 11,
+            "login": "avoznyak",
+            "internalPhoneId": 41
+        },
+        "8319236452": {
+            "voip_id": 12,
+            "login": "dpolozyak",
+            "internalPhoneId": 11
+        },
+        "3689652": {
+            "voip_id": 13,
+            "login": "okovalenko",
+            "internalPhoneId": 12
+        },
+        "831355652": {
+            "voip_id": 14,
+            "login": "dmunko",
+            "internalPhoneId": 13
+        },
+        "83198964552": {
+            "voip_id": 15,
+            "login": "abenedysyuk",
+            "internalPhoneId": 14
+        },
+        "831923489652": {
+            "voip_id": 17,
+            "login": "brudka",
+            "internalPhoneId": 19
+        },
+        "831493589652": {
+            "voip_id": 24,
+            "login": "vdanylyuk",
+            "internalPhoneId": 36
+        },
+        "8319894535652": {
+            "voip_id": 25,
+            "login": "lpasternak",
+            "internalPhoneId": 24
+        },
+        "83193589652": {
+            "voip_id": 26,
+            "login": "vkhodus",
+            "internalPhoneId": 6
+        },
+        "8319896652": {
+            "voip_id": 27,
+            "login": "opovazhna",
+            "internalPhoneId": 26
+        },
+        "8319892652": {
+            "voip_id": 28,
+            "login": "imucko",
+            "internalPhoneId": 42
+        },
+        "8319589652": {
+            "voip_id": 30,
+            "login": "overes",
+            "internalPhoneId": 29
+        },
+        "83251989652": {
+            "voip_id": 31,
+            "login": "okrasnomovets",
+            "internalPhoneId": 30
+        },
+        "831925689652": {
+            "voip_id": 35,
+            "login": "vіslamov",
+            "internalPhoneId": 34
+        },
+        "744012800": {
+            "voip_id": 18,
+            "login": "vlevanov",
+            "internalPhoneId": 17
+        },
+        "831989652": {
+            "voip_id": 21,
+            "login": "vnanovska",
+            "internalPhoneId": 10
+        }
+    }
+}
