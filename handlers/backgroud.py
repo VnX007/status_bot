@@ -67,8 +67,8 @@ async def voip_check_statuses(bot: Bot):
 
                                     # 2. РЕЖИМ "ДЯТЕЛ" (тільки для голого NOT_READY)
                                     else:
+                                        last_nag = user_session.get("last_nag_time", 0)
                                         if latest_status == "NOT_READY":
-                                            last_nag = user_session.get("last_nag_time", 0)
 
                                             # Якщо з минулого мата пройшло більше 60 секунд — лупимо ще раз!
                                             if time.time() - last_nag > 60:
@@ -110,6 +110,6 @@ async def voip_check_statuses(bot: Bot):
                                                 user_session["last_nag_time"] = time.time()
                                                 active_session[user_id] = user_session
 
-                await asyncio.sleep(3)
+                await asyncio.sleep(2)
 
     await asyncio.sleep(60)

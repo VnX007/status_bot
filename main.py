@@ -5,6 +5,7 @@ from aiogram import Bot, Dispatcher
 from dotenv import load_dotenv
 from handlers import start
 from handlers import backgroud
+from handlers import excuses
 
 
 load_dotenv()
@@ -12,6 +13,7 @@ load_dotenv()
 bot = Bot(token=os.getenv("BOT_TOKEN"))
 dp = Dispatcher()
 dp.include_router(start.router)
+dp.include_router(excuses.router)
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO, filemode="a", filename="galera_logs.txt"
